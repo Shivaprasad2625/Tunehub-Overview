@@ -1,0 +1,6 @@
+Purpose: Manages the collection of songs available for streaming within the application.
+Functionality: Allows users to view and play songs, and administrators to add new songs to the collection.
+Addition: Administrators use the "/addsong" endpoint to add new songs to the collection, ensuring no duplicates exist.
+Viewing: All users can access the "/viewsongs" endpoint to view the available song collection, allowing for easy song discovery and playback.
+Playback: Users access the "/playsongs" endpoint to play songs, either through direct streaming or as part of playlist playback.
+Integration: Utilizes the Song Service for managing song data, ensuring consistency and reliability in song management.
