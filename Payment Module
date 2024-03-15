@@ -1,0 +1,6 @@
+Purpose: Facilitates secure payment processing for premium memberships.
+Functionality: Allows users to initiate payments for premium memberships. Generates payment orders and verifies payment signatures using the Razorpay API.
+Order Creation: Users trigger payment creation through the "/pay" endpoint, which generates an order for the specified amount and currency.
+Payment Verification: Payment data is sent to the "/verify" endpoint for verification. If valid, users' premium status is updated.
+Success/Failure Handling: Routes are provided for handling payment success and failure, updating user accounts accordingly.
+Integration: Utilizes the Razorpay payment gateway for seamless and secure payment processing.
