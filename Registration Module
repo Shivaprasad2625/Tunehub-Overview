@@ -1,0 +1,5 @@
+Purpose: Allows new users to create accounts and join the TuneHub platform.
+Functionality: Provides a registration form where users can input their personal details, such as email, password, and other required information.
+Validation: Validates user input to ensure that email addresses are unique and passwords meet security requirements.
+Addition: Upon successful registration, user details are stored securely in the database, allowing them to log in and access the platform's features.
+Integration: Integrates with the UserController to handle user registration and account creation processes.
