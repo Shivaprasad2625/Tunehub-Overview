@@ -1,0 +1,5 @@
+Purpose: Manages user accounts, permissions, and roles within the TuneHub platform.
+Functionality: Allows administrators to view, edit, and delete user accounts as needed. Users can update their account information, change passwords, or delete their accounts.
+Permissions: Assigns roles to users, such as admin or customer, to determine access levels and permissions within the platform.
+Security: Implements security measures to protect user data and ensure compliance with data protection regulations.
+Integration: Collaborates with the UserController to handle user-related operations and maintain user accounts securely.
