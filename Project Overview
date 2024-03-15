@@ -10,7 +10,7 @@ On the backend side, I have utilized Spring Boot, a Java-based framework, to bui
 
 Database Integration:
 
-The application utilizes a relational database (not shown in the provided code snippets) to store user information, songs, playlists, and payment-related data. I have integrated the backend with the database using Spring Data JPA, which provides an abstraction layer for working with databases in a Spring application. The database schema is designed to efficiently store and retrieve data related to users, songs, playlists, and payment transactions.
+The application utilizes a relational database - MySQL to store user information, songs, playlists, and payment-related data. I have integrated the backend with the database using Spring Data JPA, which provides an abstraction layer for working with databases in a Spring application. The database schema is designed to efficiently store and retrieve data related to users, songs, playlists, and payment transactions.
 
 Payment Integration:
 
