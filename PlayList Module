@@ -1,0 +1,6 @@
+Purpose: Enables users to create, view, and manage playlists of their favorite songs.
+Functionality: Allows users to create playlists, add songs to playlists, and view existing playlists.
+Creation: Users access the "/createplaylists" endpoint to create new playlists, selecting songs from the available library.
+Management: Playlists are stored in the database and associated with user accounts. Songs can be added or removed from playlists as desired.
+Viewing: Users can view their created playlists through the "/viewplaylists" endpoint, displaying a list of all available playlists.
+Integration: Integrates with the Song Service to fetch and manage song data, ensuring seamless playlist creation and management.
